@@ -11,7 +11,7 @@ body {
 
 .container-mini {
     width: 800px;
-    margin: 0 auto;
+    margin: 0 auto; 
 }
 
 .container-big {
@@ -37,7 +37,7 @@ body {
     background: url(img/wheat-back.jpg) no-repeat bottom;
     background-size: cover;
     background-color: #363636;
-    color: ffffff;
+    color: #ffffff;
 }
 
 .header-top {
@@ -644,20 +644,20 @@ body {
 
 .inst {
     position: relative;
-    left: -1px;
+    left: 0px;
     background: url(img/icon-insta.png) no-repeat center center #1b1b1b;
 }
 
 .face {
     position: relative;
-    left: -2px;
+    left: -1px;
     background: url(img/icon-fb.png) no-repeat center center #1b1b1b;
 }
 
 .vk {
     float: right;
     position: relative;
-    left: -3px;
+    left: -2px;
     background: url(img/icon-vk.png) no-repeat center center #1b1b1b;
     
 }
@@ -714,4 +714,20 @@ body {
 
 .copyright a:active {
     color:rgba(131, 126, 126, 0.3);
+}
+
+html,
+body {
+	height: 100%;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
 }
