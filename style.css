@@ -655,7 +655,6 @@ body {
 }
 
 .vk {
-    float: right;
     position: relative;
     left: -2px;
     background: url(img/icon-vk.png) no-repeat center center #1b1b1b;
@@ -716,7 +715,7 @@ body {
     color:rgba(131, 126, 126, 0.3);
 }
 
-/* */
+/* ------ */
 
 html,
 body {
